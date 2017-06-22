@@ -1,0 +1,54 @@
+Testen von Enterprise Anwendungen
+=================================
+
+Plotplugin
+----------
+
+- Aufbau von neuen Pageobjects
+  -
+- Replizieren von Fehler
+  - NumberFormatExcpetion bei Empty String ""
+- Abfragen von Jenkins Konsole
+- Laden von Testdaten
+- xPath
+
+Docker
+------
+
+- Docker Container Setup
+- (Nicht fertig implementiert) Injectable Docker Slave
+  - MachineProvider / MachineController
+  - ATH - Bindings anpassen (....) todo gucie (Inject...)
+
+
+Warningsplugin
+--------------
+
+- Testen Warningsplugin auch auf RemoteSlave funktioniert
+- Ticket(XXX) reproduzieren
+-
+
+
+
+
+
+Plotplugin
+- Was tut das Plugin
+  - Konfiguration
+
+
+  Vorgehen bei Präsi
+  ==================
+
+  - Plugin kurz Vorstellen ()
+    - Einsortieren welche Art das Plugin hat/ist (PostBuild)
+    - Wie arbeitet das Plugin (Verwendet Datei)
+  - Erklären warum wir einen Test schreieben
+  - Vorgehen erklären
+    - Projekt
+    - Konfiguration von Build mit PostBuildStep
+    - Machen Build
+    - ERzeugen plot Datei
+    - Schauen nach ob Grafiken erzeugt wurden /xpath
+    - Schauen in KonsoleLogs ob Exeption vorhanden
+
